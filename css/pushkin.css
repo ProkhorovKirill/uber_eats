@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.main_container{
+    
+}
+*/
+.container{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    width: 100%;
+    align-items: center;
+    top: 0;
+    background-color: white;
+    border-bottom: #626262 1px solid;
+}
+
+.logo{
+    padding-left: 81px;
+}
+
+.shop{
+    display: flex;
+    gap: 27px;
+    padding-right: 87px;
+    align-items: center;
+}
+
+.button{
+    background-color: aliceblue;
+    padding: 14px 20px;
+}
+
+.intro{
+    position: relative;
+    top: 72px;
+    height: 364px;
+    width: 100%;
+}
+
+.intro_image{
+    width: 100%;
+}
+
+.in_intro{
+    height: 204px;
+    width: 389px;
+    position: absolute;
+    top: 152px;
+    left: 76px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.traktir{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inin_intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 29px 38px 38px;
+    align-items: center;
+}
+
+.price{
+    color: #626262;
+    font-size: 14px;
+}
+
+.time{
+    background-color: black;
+    color: white;
+    border: 0.1px solid black;
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+nav{
+    margin-top: 205px;
+}
+
+.nav{    
+    padding: 32px 29px 0 81px;
+}
+
+a{
+    text-decoration: none;
+    color: #327430;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    color: #327430;
+}
+
+.snacks{
+    margin-top: 56px;
+    padding-left: 81px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.zakuski{
+    margin-top: 32px;
+    
+}
+
+.first_snack{
+    display: flex; 
+    border: 0.5px solid grey;
+    height: 160px;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.second_snack{
+    display: flex; 
+    border: 0.5px solid grey;
+    height: 160px;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.third_snack{
+    display: flex; 
+    border: 0.5px solid grey;
+    height: 160px;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.forth_snack{
+    display: flex; 
+    border: 0.5px solid grey;
+    height: 160px;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.fifth_snack{
+    display: flex; 
+    border: 0.5px solid grey;
+    height: 160px;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.sixth_snack{
+    display: flex; 
+    border: 0.5px solid grey;
+    height: 160px;
+    width: 470px;
+    justify-content: space-between;
+}
+
+.writes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name_of_snack{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+.price_of_snack{
+    padding-left: 16px;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+.with_egg{
+    padding-top: 4px;
+    font-size: 13px;
+    color: #626262;
+}
+
+.for_snacks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.for_snacks_1{
+    padding-top: 49px;
+}
+
+#sal{
+    margin-top: 80px;
+}
+
+#sup{
+    margin-top: 80px;
+}
+
+#hot{
+    margin-top: 80px;
+}
+
+#gar{
+    margin-top: 80px;
+}
+
+#des{
+    margin-top: 80px;
+}
+
+.footer{
+    background-color: black;
+    
+    padding-left: 81px;
+    padding-right: 81px;
+}
+
+.down_container{
+    box-sizing: border-box;
+    width: 100%;
+    
+    margin: 100px auto 0 auto;
+}
+
+.down_logo{
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+
+.line{
+    color: #979797;
+}
+
+.dif_links{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang{
+    background-color: #3B3B3B;
+    color: white;
+    margin-left: 16px;    
+}
+
+.else_links_1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.download{
+    padding-top: 41px;
+    padding-bottom: 39px;
+     display: flex;
+     justify-content: center;
+     gap: 40px
+}
+
+.last_links{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.upbutton{
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+}
